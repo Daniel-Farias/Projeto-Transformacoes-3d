@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+.controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+}
+
+.slider-container {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.slider-container input[type="range"] {
+  width: 100%;
+}
+
+
+
+.slider-label {
+  margin-bottom: 5px;
+}
